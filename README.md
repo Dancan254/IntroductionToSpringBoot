@@ -30,13 +30,13 @@ Follow these steps to run the Spring Boot application:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/Dancan254/spring-boot-introduction.git
+    git clone https://github.com/Dancan254/IntroductionToSpringBoot.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd spring-boot-introduction
+    cd IntroductionToSpringBoot
     ```
 
 3. Build and run the application:
