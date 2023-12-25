@@ -44,7 +44,7 @@ public class DepartmentServiceImpl implements DepartmentService{
     @Override
     public Department updateDepartment(Long departmentId, Department department) {
 
-        //get the dep
+        //get the department
         Department dept = departmentRepository.findById(departmentId).get();
 
         //check if any param are null,

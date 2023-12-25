@@ -16,19 +16,16 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Department {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
     //validations
 //    @Length(max = 10, min = 3)
 //    @Size(max= 10, min = 5)
 //    @Email
 //    @Positive
 //    @Negative
-
-    @NotBlank(message = "please add a department name") //ensures that no blank name is passed
+    @NotBlank(message = "Please add a department name") //ensures that no blank name is passed
     private String departmentName;
     private String departmentAddress;
     private String departmentCode;
