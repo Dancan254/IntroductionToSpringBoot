@@ -30,7 +30,7 @@ class DepartmentControllerTest {
     @BeforeEach
     void setUp() {
         department = Department.builder()
-                .departmentName("Mechnaical")
+                .departmentName("Mechanical")
                 .departmentAddress("SOE")
                 .departmentCode("E023")
                 .id(1L)
@@ -40,7 +40,7 @@ class DepartmentControllerTest {
     @Test
     void saveDepartment() throws Exception {
         Department inputDepartment = Department.builder()
-                .departmentName("Mechnaical")
+                .departmentName("Mechanical")
                 .departmentAddress("SOE")
                 .departmentCode("E023")
                 .id(1L)
